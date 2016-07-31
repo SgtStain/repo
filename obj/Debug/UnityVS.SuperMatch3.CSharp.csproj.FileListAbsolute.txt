@@ -1,0 +1,12 @@
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Serg\Documents\SuperMatch3\obj\Debug\UnityVS.SuperMatch3.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Documents\SuperMatch3\obj\Debug\Assembly-CSharp.dll
+C:\Users\Serg\Documents\SuperMatch3\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Serg\Documents\SuperMatch3\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb

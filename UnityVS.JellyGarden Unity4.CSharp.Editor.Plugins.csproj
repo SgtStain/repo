@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BD39171-B768-31FD-BD7A-DD8DBC0DB5CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>EditorPlugins:7</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>4.6.2f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIAB_W8Plugin">
+      <HintPath>Assets\Plugins\OpenIAB_W8Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.JellyGarden Unity4.CSharp.Plugins.csproj">
+      <Project>{16025A5A-5E2D-63C6-858F-EE96664804C8}</Project>
+      <Name>UnityVS.JellyGarden Unity4.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.JellyGarden Unity4.CSharp.csproj">
+      <Project>{DAE521E4-E139-02FF-724C-846DD58324BA}</Project>
+      <Name>UnityVS.JellyGarden Unity4.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Editor\SmartLevelsMap\LevelsEditorBase.cs" />
+    <Compile Include="Assets\Plugins\Editor\SmartLevelsMap\LevelsMapEditor.cs" />
+    <Compile Include="Assets\Plugins\Editor\SmartLevelsMap\MapCameraEditor.cs" />
+    <Compile Include="Assets\Plugins\Editor\SmartLevelsMap\MapLevelEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\JellyGarden\Resources\Levels\1.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\10.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\100.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\11.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\12.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\13.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\14.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\15.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\16.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\17.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\18.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\19.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\2.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\20.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\21.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\22.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\23.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\24.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\25.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\26.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\27.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\28.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\29.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\3.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\30.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\31.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\32.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\33.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\34.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\35.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\36.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\37.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\38.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\39.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\4.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\40.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\41.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\42.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\43.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\44.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\45.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\46.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\47.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\48.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\49.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\5.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\50.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\51.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\52.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\53.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\54.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\55.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\56.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\57.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\58.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\59.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\6.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\60.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\61.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\62.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\63.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\64.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\65.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\66.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\67.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\68.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\69.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\7.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\70.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\71.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\72.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\73.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\74.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\75.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\76.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\77.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\78.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\79.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\8.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\80.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\81.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\82.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\83.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\84.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\85.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\86.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\87.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\88.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\89.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\9.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\90.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\91.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\92.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\93.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\94.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\95.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\96.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\97.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\98.txt" />
+    <None Include="Assets\JellyGarden\Resources\Levels\99.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JellyGarden\Scripts\LevelManager.cs">
+    <Files>
+      <File FileName="Assets\JellyGarden\Scripts\LevelManager.cs" Line="284" Column="21" />
+      <File FileName="Assets\JellyGarden\Chartboost\Scripts\Chartboost.cs" Line="1" Column="1" />
+      <File FileName="Assets\JellyGarden\Scripts\GUI\GameFieldAnim.cs" Line="1" Column="1" />
+      <File FileName="Assets\JellyGarden\Scripts\GUI\MapLevelNumber.cs" Line="1" Column="1" />
+      <File FileName="Assets\JellyGarden\Scripts\GUI\GUIEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\SmartLevelsMap\Scripts\Path.cs" Line="1" Column="1" />
+      <File FileName="Assets\JellyGarden\Scripts\AI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\SmartLevelsMap\Scripts\LevelsMap.cs" Line="1" Column="1" />
+      <File FileName="Assets\JellyGarden\Scripts\InitScript.cs" Line="1" Column="1" />
+      <File FileName="..\Space Shooter\Assets\Scripts\GameController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

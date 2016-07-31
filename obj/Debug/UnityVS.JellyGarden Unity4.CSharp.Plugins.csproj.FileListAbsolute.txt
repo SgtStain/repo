@@ -1,0 +1,13 @@
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\OpenIAB_W8Plugin.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\Temp\UnityVS_bin\Debug\OpenIAB_W8Plugin.pdb
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\obj\Debug\UnityVS.JellyGarden Unity4.CSharp.Plugins.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Serg\Documents\Asset Store Projects\JellyGarden\JellyGarden Unity4\obj\Debug\Assembly-CSharp-firstpass.pdb
